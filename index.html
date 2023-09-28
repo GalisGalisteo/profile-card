@@ -3,31 +3,27 @@
 
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <style>
-        .card {
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-            max-width: 300px;
-            margin: auto;
-            text-align: center;
-            font-family: arial;
-        }
-    </style>
+    <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
 
-    User Profile Card
+    <h1 class="title">User Profile Card</h1>
 
-    <img src="https://www.w3schools.com/w3images/team2.jpg" alt="John" style="width:100%">
-    John Doe
-    CEO & Founder, Example
-    Harvard University
+    <div class="card">
+        <img class="card__profile-picture" src="https://www.w3schools.com/w3images/team2.jpg" alt="John"
+            style="width:100%">
+        <h2 class="card__name">John Doe</h2>
+        <h3 class="card__position">CEO & Founder, Example</h3>
+        <h4 class="card__place">Harvard University</h4>
+        <a class="card__social" href="#"><i class="fa fa-dribbble"></i></a>
+        <a class="card__social" href="#"><i class="fa fa-twitter"></i></a>
+        <a class="card__social" href="#"><i class="fa fa-linkedin"></i></a>
+        <a class="card__social" href="#"><i class="fa fa-facebook"></i></a>
+        <div class="card__contact">Contact</div>
+    </div>
+    </div>
 
-    <a href="#"><i class="fa fa-dribbble"></i></a>
-    <a href="#"><i class="fa fa-twitter"></i></a>
-    <a href="#"><i class="fa fa-linkedin"></i></a>
-    <a href="#"><i class="fa fa-facebook"></i></a>
-    Contact
 
 </body>
 
